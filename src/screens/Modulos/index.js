@@ -28,7 +28,12 @@ const Modulos = [
   },
 ];
 
-function Modulo() {
+function Modulo({navigation}) {
+
+  function sair(){
+    return navigation.navigate("Login");
+}
+
   return (
     <ScrollView>
       <ImageBackground style={styles.fundo}>
@@ -54,6 +59,7 @@ function Modulo() {
           type="font-awesome-5"
           color="#fff"
           style={{ width: 100, marginTop: 20 }}
+          onPress={sair}
         />
 
         <Card style={{ borderRadius: 10 }}>
