@@ -1,9 +1,9 @@
 {
-  "name": "dgsmobile",
-  "displayName": "dgsmobile",
+  "name": "fullstack",
+  "displayName": "fullstack",
   "expo": {
-    "name": "dgsmobile",
-    "slug": "dgsmobile",
+    "name": "fullstack",
+    "slug": "fullstack",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
