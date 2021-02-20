@@ -5,9 +5,6 @@ import {
   StatusBar
 } from 'react-native';
 
-import { Navigation}
-
-
 import Rotas from './src/routes';
 
 function App(){
